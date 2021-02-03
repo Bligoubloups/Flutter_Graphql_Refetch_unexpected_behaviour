@@ -4,14 +4,16 @@ import 'package:graphql_flutter/graphql_flutter.dart';
 ValueNotifier<GraphQLClient> client;
 void main() {
   final HttpLink httpLink = HttpLink(
-    'http://192.168.1.19:6001/graphql',
+    uri: 'http://192.168.1.19:6001/graphql',
   );
 
   Link link = httpLink;
 
   client = ValueNotifier(
     GraphQLClient(
-      cache: GraphQLCache(),
+      cache: OptimisticCache(
+        dataIdFromObject: typenameDataIdFromObject,
+      ),
       link: link,
     ),
   );
@@ -61,11 +63,11 @@ class SubscribeWidget extends StatelessWidget {
     return Center(
       child: Query(
         options: QueryOptions(
-          document: gql(query),
+          documentNode: gql(query),
         ),
         builder: (QueryResult result,
             {VoidCallback refetch, FetchMore fetchMore}) {
-          if (result.isLoading) {
+          if (result.loading) {
             return Text('Loading');
           }
 

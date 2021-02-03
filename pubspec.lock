@@ -49,7 +49,7 @@ packages:
       name: connectivity
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.2"
+    version: "0.4.9+5"
   connectivity_for_web:
     dependency: transitive
     description:
@@ -135,69 +135,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.12.3"
-  gql_dedupe_link:
-    dependency: transitive
-    description:
-      name: gql_dedupe_link
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.10"
-  gql_error_link:
-    dependency: transitive
-    description:
-      name: gql_error_link
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.1.1-alpha+1601131172858"
-  gql_exec:
-    dependency: transitive
-    description:
-      name: gql_exec
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.2.5"
-  gql_http_link:
-    dependency: transitive
-    description:
-      name: gql_http_link
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.3.2"
-  gql_link:
-    dependency: transitive
-    description:
-      name: gql_link
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.3.1"
-  gql_transform_link:
-    dependency: transitive
-    description:
-      name: gql_transform_link
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.1.5"
   graphql:
     dependency: transitive
     description:
       name: graphql
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.0.0"
+    version: "3.1.0"
   graphql_flutter:
     dependency: "direct dev"
     description:
       name: graphql_flutter
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.0.0"
-  hive:
-    dependency: transitive
-    description:
-      name: hive
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.4.4+1"
+    version: "3.1.0"
   http:
     dependency: transitive
     description:
@@ -233,13 +184,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.3.0-nullsafety.3"
-  normalize:
+  mime:
     dependency: transitive
     description:
-      name: normalize
+      name: mime
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.4"
+    version: "0.9.7"
   path:
     dependency: transitive
     description:
@@ -310,6 +261,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.13"
+  quiver:
+    dependency: transitive
+    description:
+      name: quiver
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.5"
   rxdart:
     dependency: transitive
     description:
