@@ -16,12 +16,12 @@ Put your `ip address` in the `httpLink`
 
 Refetch bug after two airplane mode.
 
-How to reproduce:
-After the app has started:
--turn on airplane mode.
--click the refresh button.
--turn off airplane mode.
--click the refresh button.
--turn on airplane mode.
--click the refresh button.
-We are stuck loading.
+How to reproduce:  
+After the app has started:  
+-turn on airplane mode.  
+-click the refresh button.  
+-turn off airplane mode.  
+-click the refresh button.  
+-turn on airplane mode.  
+-click the refresh button.  
+We are stuck loading.  
